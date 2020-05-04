@@ -17,6 +17,7 @@ cat << EOT >> _posts/"$post_title".md
 ---
 # docs - https://jekyllrb.com/docs/posts/
 layout: post
+author: $(whoami)
 title:  "$1"
 date:   $(date "+%F %X %z")
 # comments_id:
