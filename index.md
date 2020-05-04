@@ -4,7 +4,9 @@ title: "Index"
 permalink: /index
 ---
 
-# List of posts in _posts/
+<!-- List of posts in _posts -->
+## Articles
+
 <ul>
   {% for post in site.posts %}
     <li>

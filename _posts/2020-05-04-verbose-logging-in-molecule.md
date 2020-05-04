@@ -1,6 +1,7 @@
 ---
 # docs - https://jekyllrb.com/docs/posts/
 layout: post
+author: Dovry
 title:  "Verbose logging in Molecule"
 date:   2020-05-04 21:42:14 +0200
 # comments_id:
