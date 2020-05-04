@@ -4,15 +4,32 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Who (am I)?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm Dovry, I spend more time automating tasks than what just doing said task manually would've taken
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Why (create a blog)?
 
+- I was tired of keeping a google document with URLs to troubleshooting articles I'd used when learning or setting up new technology
+- I wanted documentation for my GitHub repositories
+- I enjoy contributing knowledge
 
-[jekyll-organization]: https://github.com/jekyll
+## What (is this blog about)?
+
+- Automation
+  - Shell scripting
+  - Ansible
+  - Vagrant
+  - Terraform
+- Docker
+  - I maintain a few docker images, check 'em out on [docker hub](https://hub.docker.com/u/dovry)
+- Tips'n'Tricks & Troubleshooting
+  - refer to the 'Why' section
+
+## Where?
+
+uhh..
+
+## How (is this blog hosted)?
+
+Jekyll on GitHub with GitHub Pages
