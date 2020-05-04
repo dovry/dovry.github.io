@@ -9,7 +9,8 @@ github_username:  dovry
 
 timezone: Europe/Oslo
 future: true
-theme: jekyll-theme-merlot
+#theme: jekyll-theme-merlot
+remote_theme: yizeng/jekyll-theme-simple-texture
 plugins:
   - jekyll-feed
 
