@@ -49,7 +49,7 @@ printf "\nA new post with the title \n\n  %s.md \n\ncreated in _posts/\n\n" "$po
 Here is the sample output when creating a new blogpost
 
 {% highlight sh %}
-dovry@wsl$ ./_includes/new_post.sh "Sample Jekyll blog post"
+dovry@wsl$ .new_post.sh "Sample Jekyll blog post"
 
 A new post with the title
 
@@ -59,5 +59,5 @@ created in _posts/
 {% endhighlight %}
 
 The script creates a blog post and all additional folders I might want to use.
-
-![Screenshot]("/assets/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script_example.png")
+![image](/assets/article_images/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script-example.png)
+<img src="{{ site.baseurl }}/assets/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script-example.png">
