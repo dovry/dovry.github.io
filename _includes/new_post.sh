@@ -27,6 +27,6 @@ date:   $(date "+%F %X %z")
 EOT
 
 # Create any missing files/folders associated with the post
-mkdir --parent _assets/article_images/"$post_title"
+mkdir --parent assets/article_images/"$post_title"
 
 printf "\nA new post with the title \n\n  %s.md \n\ncreated in _posts/\n\n" "$post_title"
