@@ -60,4 +60,4 @@ created in _posts/
 
 The script creates a blog post and all additional folders I might want to use.
 
-![Screenshot](/assets/article_images/2020-05-05-sample-jekyll-blog-post/script_example.png)
+![Screenshot]("/assets/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script_example.png")
