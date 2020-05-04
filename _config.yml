@@ -9,7 +9,7 @@ github_username:  dovry
 
 timezone: Europe/Oslo
 future: true
-theme: jekyll-theme-hacker
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
