@@ -7,7 +7,7 @@ post_title=$(date +%F)-"$title"
 
 # Make sure post title is included in run command
 [[ -z $1 ]] && printf "\nA post title is required!\n\n" && exit 1
-# Make sure the post tile is quoted if it contains more than one word
+# Make sure the post title is quoted if it contains more than one word
 [[ -n $2 ]] && printf "\nUse double quotes around your title!\n\n" && exit 1
 # Check for homonymous posts
 [[ -f _posts/"$post_title".md || -d _assets/article_images/"$post_title" ]] \
@@ -16,13 +16,13 @@ post_title=$(date +%F)-"$title"
 cat << EOT >> _posts/"$post_title".md
 ---
 # docs - https://jekyllrb.com/docs/posts/
-layout: post
+layout: default
 author: $(whoami)
 title:  "$1"
 date:   $(date "+%F %X %z")
-# comments_id:
-# categories: [] # comma seperated
-# tags: [] # comma seperated
+# comments_id:      # issue number on github
+# categories: []    # comma seperated
+# tags: []          # comma seperated
 ---
 EOT
 
