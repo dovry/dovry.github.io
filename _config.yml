@@ -1,16 +1,14 @@
-title: Dovry's blogposts
+title: Dovry's totally alright tech blog
 #email:
 description: >-
-  Tips, tricks, troubleshooting and tech lore
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.bjarnason.cloud" # the base hostname & protocol for your site, e.g. http://example.com
+  A collection of my thoughts, troubleshooting documentation, tips'n'trick, and (not so) useful code snippets
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.bjarnason.cloud"
 # twitter_username:
 github_username:  dovry
 
 timezone: Europe/Oslo
 future: true
-
-# Build settings
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
