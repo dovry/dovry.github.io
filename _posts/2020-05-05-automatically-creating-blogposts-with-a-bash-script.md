@@ -24,7 +24,7 @@ post_title=$(date +%F)-"$title"
 # Make sure the post title is quoted if it contains more than one word
 [[ -n $2 ]] && printf "\nUse double quotes around your title!\n\n" && exit 1
 # Check for homonymous posts
-[[ -f _posts/"$post_title".md || -d _assets/article_images/"$post_title" ]] \
+[[ -f _posts/"$post_title".md || -d assets/article_images/"$post_title" ]] \
 && printf "\nA file with that name already exists!\n\n" && exit 1
 
 cat << EOT >> _posts/"$post_title".md
