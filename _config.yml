@@ -9,6 +9,7 @@ github_username:  dovry
 
 timezone: Europe/Oslo
 future: true
+
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
