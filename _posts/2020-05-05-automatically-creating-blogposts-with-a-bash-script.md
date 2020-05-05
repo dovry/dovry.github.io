@@ -59,4 +59,5 @@ created in _posts/
 {% endhighlight %}
 
 The script creates a blog post and all additional folders I might want to use.
-![image](/assets/script-example.png)
+
+![image](/assets/script_example.png)
