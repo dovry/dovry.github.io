@@ -59,5 +59,4 @@ created in _posts/
 {% endhighlight %}
 
 The script creates a blog post and all additional folders I might want to use.
-![image](/assets/article_images/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script-example.png)
-<img src="{{ site.baseurl }}/assets/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script-example.png">
+![image](/assets/script-example.png)
