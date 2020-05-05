@@ -10,7 +10,9 @@ github_username:  dovry
 timezone: Europe/Oslo
 future: true
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+#remote_theme: "mmistakes/jekyll-theme-basically-basic"
+remote_theme: "scottmathson/simpol-theme"
+
 plugins:
   - jekyll-feed
 
