@@ -1,4 +1,5 @@
 title: Dovry's totally alright tech blog
+subtitle: test subtitle
 #email:
 description: >-
   A collection of my thoughts, troubleshooting documentation, tips'n'trick, and (not so) useful code snippets
@@ -12,6 +13,10 @@ future: true
 
 #remote_theme: "mmistakes/jekyll-theme-basically-basic"
 remote_theme: "scottmathson/simpol-theme"
+
+logo_img: "/assets/tux-logo.png"
+subgreeting_one: test1
+subgreeting_two: test2
 
 plugins:
   - jekyll-feed
