@@ -62,6 +62,6 @@ The script creates a blog post and all additional folders I might want to use.
 
 ![image](/assets/article_images/2020-05-05-automatically-creating-blogposts-with-a-bash-script/script_example.png)
 
-{% if page.comments_id %}
+{% if post.comments_id %}
  {% include comments.html %}
 {% endif %}
