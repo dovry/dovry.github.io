@@ -30,11 +30,12 @@ post_title=$(date +%F)-"$title"
 cat << EOT >> _posts/"$post_title".md
 ---
 # docs - https://jekyllrb.com/docs/posts/
-layout: default
-author: $(whoami)
-title:  "$1"
-date:   $(date "+%F %X %z")
-# comments_id:      # issue number on github
+layout:       default
+author:       $(whoami)
+title:        "$1"
+description:  ""
+date:         $(date "+%F %X %z")
+# header-img:       # used with simpol-theme
 # categories: []    # comma seperated
 # tags: []          # comma seperated
 ---
