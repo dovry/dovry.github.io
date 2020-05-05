@@ -1,5 +1,4 @@
 title: Dovry's totally alright tech blog
-email: test@email.com
 description: >-
   A collection of my thoughts, troubleshooting documentation, tips'n'trick, and (not so) useful code snippets
 # baseurl: "" # the subpath of your site, e.g. /blog
@@ -13,9 +12,14 @@ future: true
 #remote_theme: "mmistakes/jekyll-theme-basically-basic"
 remote_theme: "scottmathson/simpol-theme"
 
-logo_img: "/assets/tux-logo.png"
+logo_img: /assets/tux-logo.png
+
+
 subgreeting_one: test1
 subgreeting_two: test2
+
+nav_link_one_name: about
+nav_link_one_link: "about.md"
 
 plugins:
   - jekyll-feed
