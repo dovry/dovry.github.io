@@ -46,7 +46,7 @@ This system is not registered to Red Hat Subscription Management. You can use su
 Run these four commands with elevated privileges.
 
 ```sh
-sed -i.bak 's/enabled = 1/enabled = 0/g' /etc/yum/pluginconf.d/rhnplugin.conf
+sed -i.bak 's/enabled=1/enabled=0/g' /etc/yum/pluginconf.d/rhnplugin.conf
 
 sed -i.bak 's/enabled=1/enabled=0/g' /etc/yum/pluginconf.d/subscription-manager.conf
 
@@ -54,6 +54,8 @@ chkconfig rhsmcertd off
 
 service rhsmcertd stop
 ```
+
+You can verify that the files were changed by running `grep -e "enabled" <filename>`. The result should only return `enabled=0`
 
 # Command breakdown
 
@@ -66,7 +68,7 @@ sed -i.bak
 We then specify that we want to use regexp searching with `'s/'`, which string we want to target (`'enabled = 1'`), what to replace that string with (`'enabled = 0'`), and finally, that we want to change all instances of `'enabled = 1'` by specifying `'/g'`, meaning **globally**.
 
 ```sh
-'s/enabled = 1/enabled = 0/g'
+'s/enabled=1/enabled=0/g'
 ```
 
 ...and...
@@ -76,8 +78,6 @@ We then specify that we want to use regexp searching with `'s/'`, which string w
 ```
 
 ...respectively. 
-
-Notice the spaces surrounding the `'='` in the former command. The files are surprisingly not formatted exactly the same.
 
 The final portion of the `sed` command specifies which file to edit.
 
