@@ -4,6 +4,7 @@ layout: default
 author: dovry
 title:  "Automatically creating blogposts with a bash script"
 date:   2020-05-05 00:23:36 +0200
+description: "A bash script to create a Jekyll blog post"
 comments_id: 1
 categories: [automation, shell, bash, script] # comma seperated
 tags: [automation, shell, bash, script] # comma seperated

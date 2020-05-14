@@ -4,7 +4,7 @@ layout: default
 author: Dovry
 title:  "Verbose logging in Molecule"
 date:   2020-05-04 21:42:14 +0200
-# comments_id:
+Description: "Enable troubleshooting verbosity in Molecule"
 categories: [ansible, molecule, automation]
 tags: [ansible, molecule, automation]
 ---
