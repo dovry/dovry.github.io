@@ -2,8 +2,10 @@
 # how to use this script
 # ./new_post.sh "Post Title Here"
 
-title="$(sed 's/ /-/g' <<< "$(echo "$1" | tr '[:upper:]' '[:lower:]')")"
-post_title=$(date +%F)-"$title"
+# converts input with uppercase to lower case, and spaces to dashes
+# ./string_manip.sh "Example FIle name With CAPITAL LetterS"
+# 2022-09-15-example-file-name-with-capital-leters
+post_title=$(date +%F)-"$(tr -s '[:upper:] ' '[:lower:]-' <<< "$1")"
 
 # Make sure post title is included in run command
 [[ -z $1 ]] && printf "\nA post title is required!\n\n" && exit 1
