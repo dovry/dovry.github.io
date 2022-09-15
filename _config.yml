@@ -3,7 +3,7 @@ description: >-
   A collection of my thoughts, troubleshooting documentation, tips'n'trick, and (not so) useful code snippets
 # baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://blog.dovry.cloud"
-url: "https://dovry.git.io"
+url: "https://dovry.github.io"
 github_username:  dovry
 
 timezone: Europe/Oslo
@@ -12,7 +12,6 @@ future: true
 #remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 logo_img: /assets/tux-logo.png
-
 
 plugins:
   - jekyll-feed
