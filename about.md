@@ -11,7 +11,7 @@ I'm Dovry, I spend more time automating tasks than what just doing said task man
 ## Why (create a blog)?
 
 - I was tired of keeping a google document with URLs to troubleshooting articles I'd used when learning or setting up new technology
-- I wanted documentation for my GitHub repositories
+- I wanted documentation for my projects
 - I enjoy contributing knowledge
 
 ## What (is this blog about)?
