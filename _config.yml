@@ -4,7 +4,8 @@ description: >-
 # baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://blog.dovry.cloud"
 url: "https://dovry.github.io"
-github_username:  dovry
+github_username: dovry
+repository: dovry/dovry.github.io 
 
 timezone: Europe/Oslo
 future: true
